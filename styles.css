@@ -1,0 +1,92 @@
+.header {
+
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 58px;
+
+}
+
+
+#logo {
+  display: inline-block;
+  margin-left: 2px;
+  margin-bottom: 10px;
+  height: 56px;
+  width: 137px;
+  background-image: url("DesDEVlogo.png");
+  background-size: cover;
+}
+
+.navLinkContainer {
+  position: absolute;
+  float: right;
+  top:17px;
+  right: 20px;
+
+}
+
+.headerLink {
+  display: inline-block;
+  color: #22a4e0;
+  line-height: 56px;
+  align: right;
+  width: 40px;
+  text-align: center;
+}
+.contentContainer {
+  position: fixed;
+  top: 56px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  padding: 20px;
+}
+.contentRow {
+  background: rgba(225, 230, 226, 0.0);
+  max-width: 1280px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0;
+}
+.contentCard {
+  background-color: darkgray;
+  vertical-align: top;
+  display: inline-block;
+  max-width: 100%;
+  width: calc(50% - 20px);;
+  height: 300px;
+  white-space: normal;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.aboutmecard{
+  height: 100px;
+  width: calc(99% - 20px);;
+}
+.contactcard{
+  height: 100px;
+  width: calc(40% - 20px);;
+}
+body{
+  background-image: url(darkny.jfif);
+}
+#aboutmeimage{
+  background-image: url(nycentral.jpg);
+}
+.boxedimage {
+  border: 3px solid black;
+  margin: 50;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+
+}
+img {
+  image-orientation: center;
